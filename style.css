@@ -1,9 +1,9 @@
 /* Fonts from Google Fonts - more at https://fonts.google.com */
 @import url("https://fonts.googleapis.com/css?family=Galada|Noto+Sans&display=swap");
 .logo-box {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
   width: 20%;
 }
 #content {
@@ -20,6 +20,22 @@ h5,
 h6 {
   font-family: "Galada", serif;
   font-size: 32px;
+}
+
+a {
+  color: #475c57;
+  text-decoration: none;
+}
+
+nav {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  grid-template-columns: auto;
+  margin-top: 15px;
+   margin-bottom: 30px; 
 }
 nav a {
   text-decoration: none;
@@ -237,4 +253,5 @@ footer {
 
   margin-top: 45px;
   margin-bottom: 1px;
+  background-color: #EDCBC2;
 }
